@@ -66,7 +66,7 @@ function Login() {
                         <Input label="Email" type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Enter your email" />
                         <div>
                             <div className="relative">
-                                <Input label="Password" type="password" name="password" value={formData.password} onChange={handleChange} placeholder="Enter your password" />
+                                <Input label="Password" type={showPassword ? "text" : "password"} name="password" value={formData.password} onChange={handleChange} placeholder="Enter your password" />
                                 <button type="button" onClick={() => setShowPassword(!showPassword)} className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500"> {showPassword ? <FaEyeSlash /> : <FaEye />}</button>
                             </div>
                         </div>
