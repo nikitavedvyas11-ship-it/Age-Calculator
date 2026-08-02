@@ -53,7 +53,7 @@ function Login() {
         <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-indigo-50 via-white to-purple-50 px-4 py-10">
             <div className="w-full max-w-md">
                 <div className="text-center mb-8">
-                    <h1 className="text-4xl font-bold text-gray-900">Welcome Back</h1>
+                    <h1 className="text-4xl font-bold text-gray-900">Welcome </h1>
                     <p className="mt-2 text-gray-500">Login to continue to Age Calculator</p>
                 </div>
                 <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-7 sm:p-8">

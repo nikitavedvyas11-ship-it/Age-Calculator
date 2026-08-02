@@ -8,7 +8,7 @@ import ProtectedRoute from "../components/ProtectedRoute";
 function AppRoutes(){
     return(
         <Routes>
-            <Route path="/" element={<Navigate to="/register"/>}/>
+            <Route path="/" element={<Navigate to="/Login"/>}/>
             <Route path="/register" element={<Register />}/>
             <Route path="/login"element={<Login />}/>
             <Route path="/dashboard"element={<ProtectedRoute> <Dashboard />  </ProtectedRoute>} />
